@@ -1,4 +1,4 @@
-package org.woheller69.gptassist;
+package tz.me.john.youtube;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

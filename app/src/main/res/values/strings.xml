@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">gptAssist</string>
+    <string name="app_name">YouTube Webview</string>
     <string name="error_microsoft_google">Login via Google, Apple, or Microsoft account is not supported</string>
     <string name="error_copy">Please select and copy text manually</string>
     <!-- StarDialog -->
@@ -10,5 +10,4 @@
     <string name="download">Download started:</string>
     <string name="all_urls">All URLs allowed</string>
     <string name="urls_restricted">URLs restricted</string>
-    <string name="url_copied">URL copied</string>
 </resources>
