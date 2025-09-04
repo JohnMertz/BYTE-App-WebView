@@ -184,9 +184,7 @@ public class MainActivity extends Activity {
         youtubeWebSettings.setAllowContentAccess(false);
         youtubeWebSettings.setAllowFileAccess(false);
         youtubeWebSettings.setBuiltInZoomControls(true);
-        youtubeWebSettings.setDatabaseEnabled(false);
         youtubeWebSettings.setDisplayZoomControls(false);
-        youtubeWebSettings.setSaveFormData(false);
         youtubeWebSettings.setGeolocationEnabled(false);
         youtubeWebSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
 
