@@ -4,7 +4,7 @@ plugins {
 
 android {
     compileSdk 35
-    namespace 'org.woheller69.gptassist'
+    namespace 'tz.me.john.youtube'
     android.buildFeatures.buildConfig true
     defaultConfig {
         applicationId "tz.me.john.youtube"
@@ -24,10 +24,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    
-    lintOptions {
-        disable "MissingTranslation" // Translation is crowd-sourced, so this lint warning is useless
+    lint {
+        disable 'MissingTranslation'
     }
+
 }
 
 dependencies {

@@ -7,7 +7,7 @@ env:
   main_project_module: app
 
   # The name of the Play Store
-  playstore_name: woheller69
+  #playstore_name: woheller69
 
 on:
   # Triggers the workflow on push or pull request events but only for default and protected branches
@@ -36,7 +36,7 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: 16
+          java-version: 17
           distribution: 'temurin'
           cache: gradle
 
@@ -58,7 +58,7 @@ jobs:
       # Upload Artifact Build
       # Noted For Output [main_project_module]/build/outputs/apk/debug/
       - name: Upload APK Debug - ${{ env.repository_name }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.date_today }} - ${{ env.playstore_name }} - ${{ env.repository_name }} - APK(s) debug generated
           path: ${{ env.main_project_module }}/build/outputs/apk/debug/
